@@ -7,4 +7,7 @@ public class Point {
         return "Point(" + x + " , " + y + ")";
 
     }
+    public String toSvg() {
+        return "<circle cx=\"" + x + "\" cy=\"" + y + "\" r=\"5\" fill=\"red\" />";
+    }
 }

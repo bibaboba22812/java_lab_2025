@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         Point p = new Point();
-        p.x = 5.5;
-        p.y = 8.2;
+        p.x = 100;
+        p.y = 50;
 
-        System.out.println(p.toString());
+        System.out.println(p.toSvg());
         }
     }
